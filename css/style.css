@@ -5,3 +5,23 @@
 .logo-color {
   color:brown !important;
 }
+
+label.error {
+  color: red;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+}
+
+input.error, textarea.error {
+  border: 1px dashed red;
+  font-weight: 300;
+  color: red;
+}
+
+
+#username-error, #email-error {
+  color: #d9534f;
+  padding: 12px;
+  display: none;
+}
