@@ -18,10 +18,3 @@ input.error, textarea.error {
   font-weight: 300;
   color: red;
 }
-
-
-#username-error, #email-error {
-  color: #d9534f;
-  padding: 12px;
-  display: none;
-}
